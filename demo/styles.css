@@ -1,0 +1,177 @@
+:root {
+  color-scheme: light;
+  --ink: #1b1b1f;
+  --muted: #55555f;
+  --line: #d9d7e3;
+  --accent: #3b2db3;
+  --panel: #f4f2ff;
+  --focus: #b4006b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: var(--ink);
+  margin: 0;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--accent);
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -48px;
+  background: #fff;
+  padding: 8px 12px;
+}
+
+.skip-link:focus {
+  top: 8px;
+}
+
+header,
+main,
+footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+header nav a[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.layout {
+  display: grid;
+  gap: 32px;
+}
+
+@media (min-width: 900px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr) 320px;
+    align-items: start;
+  }
+
+  .panel {
+    position: sticky;
+    top: 16px;
+  }
+}
+
+label,
+legend {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  font: inherit;
+  margin-top: 4px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+.choice {
+  font-weight: 400;
+}
+
+fieldset {
+  border: 1px solid var(--line);
+  padding: 12px 16px 16px;
+  margin-top: 16px;
+}
+
+fieldset[disabled] {
+  opacity: 0.6;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 18px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid #c9c2ff;
+  padding: 12px 16px;
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+.mode-switch ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.mode-switch a[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hint {
+  color: var(--muted);
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: block;
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+pre {
+  background: #fafafa;
+  border: 1px solid var(--line);
+  padding: 12px;
+  max-height: 420px;
+  overflow: auto;
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 48px;
+  padding-bottom: 32px;
+  color: var(--muted);
+}

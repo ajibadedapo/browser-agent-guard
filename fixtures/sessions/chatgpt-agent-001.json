@@ -1,0 +1,222 @@
+{
+  "id": "chatgpt-agent-001",
+  "label": "agent",
+  "agent": "chatgpt-agent",
+  "device": "desktop",
+  "notes": "ChatGPT agent (Chrome extension) completing the spike booking task, then opening item 25. Converted from research/spike-2026-10-18/sessions.json by scripts/convert-spike.ts. All 4 pointer moves were kept. Move events come from the spike's move sample, which has no pointer type; they are recorded as mouse. Press rects are reconstructed from offsetFromCentre with approximate element sizes taken from the spike page CSS, so rect x and y are exact relative to the recorded offset but w and h are estimates. Only pointerdown and click are kept as presses; mouse and pointerup events are dropped. A null or empty pointer type (keyboard or assistive technology activation) is recorded as keyboard. Input length is the field value length after the input, never the content. Key and code identities were scrubbed in the spike; printable comes from the spike's char marker.",
+  "consent": "author",
+  "env": {
+    "webdriver": false,
+    "automationTraces": []
+  },
+  "events": [
+    {
+      "kind": "marker",
+      "t": 135,
+      "agent": "chatgpt-agent",
+      "marker": "#codex-agent-overlay-root"
+    },
+    {
+      "kind": "paste",
+      "t": 11624,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 11624,
+      "trusted": false,
+      "inputType": null,
+      "length": 12,
+      "field": "text"
+    },
+    {
+      "kind": "paste",
+      "t": 13344,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 13344,
+      "trusted": false,
+      "inputType": null,
+      "length": 15,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 13927,
+      "trusted": false,
+      "inputType": null,
+      "length": 5,
+      "field": "select"
+    },
+    {
+      "kind": "change",
+      "t": 13927,
+      "trusted": false,
+      "field": "select"
+    },
+    {
+      "kind": "paste",
+      "t": 14847,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 14847,
+      "trusted": false,
+      "inputType": null,
+      "length": 18,
+      "field": "text"
+    },
+    {
+      "kind": "move",
+      "t": 15786,
+      "x": 365.5,
+      "y": 472.4375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 15789,
+      "x": 365.5,
+      "y": 472.4375,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 359,
+        "y": 465.938,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "kind": "click",
+      "t": 15807,
+      "x": 365,
+      "y": 472,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 358.994,
+        "y": 465.942,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "kind": "input",
+      "t": 15808,
+      "trusted": true,
+      "inputType": null,
+      "length": 2,
+      "field": "checkbox"
+    },
+    {
+      "kind": "change",
+      "t": 15808,
+      "trusted": true,
+      "field": "checkbox"
+    },
+    {
+      "kind": "scroll",
+      "t": 27786,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 27819,
+      "x": 393.4296875,
+      "y": 508.4375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 27821,
+      "x": 393.4296875,
+      "y": 508.4375,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 355.43,
+        "y": 486.938,
+        "w": 76,
+        "h": 43
+      }
+    },
+    {
+      "kind": "click",
+      "t": 27825,
+      "x": 393,
+      "y": 508,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 355.456,
+        "y": 486.93,
+        "w": 76,
+        "h": 43
+      }
+    },
+    {
+      "kind": "move",
+      "t": 40052,
+      "x": 735,
+      "y": 508.5,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "scroll",
+      "t": 40120,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 40235,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 52436,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 52469,
+      "x": 735,
+      "y": 508.265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 52470,
+      "x": 735,
+      "y": 508.265625,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 371,
+        "y": 484.266,
+        "w": 728,
+        "h": 48
+      }
+    },
+    {
+      "kind": "click",
+      "t": 52473,
+      "x": 735,
+      "y": 508,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 371,
+        "y": 484.288,
+        "w": 728,
+        "h": 48
+      }
+    }
+  ]
+}

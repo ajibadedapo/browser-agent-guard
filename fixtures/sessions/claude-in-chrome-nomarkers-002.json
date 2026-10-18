@@ -1,0 +1,1220 @@
+{
+  "id": "claude-in-chrome-nomarkers-002",
+  "label": "agent",
+  "agent": "claude-in-chrome",
+  "device": "desktop",
+  "notes": "Recorded 2026-10-18 on the demo contribute page: Claude in Chrome typed into fields, set the time with form input, ticked the rules box, pressed Book, scrolled and opened Item 25. Marker events removed to measure behaviour-only detection.",
+  "consent": "author",
+  "env": {
+    "webdriver": false,
+    "automationTraces": []
+  },
+  "events": [
+    {
+      "kind": "scroll",
+      "t": 12417.6,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 12484.7,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 12488.6,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 514.53125,
+        "w": 1048,
+        "h": 44
+      }
+    },
+    {
+      "kind": "click",
+      "t": 12501.9,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 514.53125,
+        "w": 1048,
+        "h": 44
+      }
+    },
+    {
+      "kind": "key",
+      "t": 12508.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12509.4,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 1,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12509.5,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12509.6,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 2,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12509.7,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12509.8,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 3,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12509.8,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12509.8,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 4,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12509.8,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12509.9,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 5,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12509.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12510,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 6,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12510,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12510,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 7,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12510,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12510.1,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 8,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12510.1,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12510.2,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 9,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12510.2,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12510.3,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 10,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12510.3,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12510.3,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 11,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12510.3,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12510.5,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 12,
+      "field": "text"
+    },
+    {
+      "kind": "scroll",
+      "t": 12517.5,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 12582.5,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 12583.2,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 514.53125,
+        "w": 1048,
+        "h": 44
+      }
+    },
+    {
+      "kind": "change",
+      "t": 12583.4,
+      "trusted": true,
+      "field": "text"
+    },
+    {
+      "kind": "click",
+      "t": 12584.6,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 514.53125,
+        "w": 1048,
+        "h": 44
+      }
+    },
+    {
+      "kind": "key",
+      "t": 12586.5,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12586.6,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 1,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12586.7,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12586.7,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 2,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12586.7,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12586.9,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 3,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12586.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12586.9,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 4,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12586.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12586.9,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 5,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12586.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 6,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.1,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 7,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.1,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.1,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 8,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.1,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.1,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 9,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.2,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.3,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 10,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.3,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.3,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 11,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.4,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.5,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 12,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.5,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.6,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 13,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.7,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.7,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 14,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.8,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.9,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 15,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12587.9,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 16,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12587.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12588,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 17,
+      "field": "text"
+    },
+    {
+      "kind": "change",
+      "t": 12589.5,
+      "trusted": true,
+      "field": "text"
+    },
+    {
+      "kind": "change",
+      "t": 12589.8,
+      "trusted": false,
+      "field": "select"
+    },
+    {
+      "kind": "input",
+      "t": 12589.9,
+      "trusted": false,
+      "inputType": null,
+      "length": 5,
+      "field": "select"
+    },
+    {
+      "kind": "scroll",
+      "t": 12601,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 12643.6,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 12644,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 491.53125,
+        "w": 1048,
+        "h": 90
+      }
+    },
+    {
+      "kind": "click",
+      "t": 12645.1,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 491.53125,
+        "w": 1048,
+        "h": 90
+      }
+    },
+    {
+      "kind": "key",
+      "t": 12646.5,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12646.8,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 1,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12646.8,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12646.8,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 2,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12646.8,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12646.9,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 3,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12646.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12646.9,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 4,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12646.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 5,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 6,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.1,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.1,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 7,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.1,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.1,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 8,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.1,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.2,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 9,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.2,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.3,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 10,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.3,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.3,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 11,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.3,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.4,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 12,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.4,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.4,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 13,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.4,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.5,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 14,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.5,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.6,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 15,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.6,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.7,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 16,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.8,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.8,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 17,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.8,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12647.8,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 18,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12647.9,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 19,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.2,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 20,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.2,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.2,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 21,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.2,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.3,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 22,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.3,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.3,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 23,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.4,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.4,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 24,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.4,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.5,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 25,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.5,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.5,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 26,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.6,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.6,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 27,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.6,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.7,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 28,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12648.7,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12648.7,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 29,
+      "field": "text"
+    },
+    {
+      "kind": "scroll",
+      "t": 12650.6,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 12717.3,
+      "x": 222,
+      "y": 537,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 12717.8,
+      "x": 222,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 215,
+        "y": 530.03125,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "kind": "change",
+      "t": 12717.9,
+      "trusted": true,
+      "field": "text"
+    },
+    {
+      "kind": "click",
+      "t": 12718.9,
+      "x": 222,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 215,
+        "y": 530.03125,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "kind": "input",
+      "t": 12719,
+      "trusted": true,
+      "inputType": null,
+      "length": 2,
+      "field": "checkbox"
+    },
+    {
+      "kind": "change",
+      "t": 12719,
+      "trusted": true,
+      "field": "checkbox"
+    },
+    {
+      "kind": "scroll",
+      "t": 12734,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 12783.8,
+      "x": 249,
+      "y": 537,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 12784.3,
+      "x": 249,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 512.53125,
+        "w": 76.859375,
+        "h": 48
+      }
+    },
+    {
+      "kind": "click",
+      "t": 12785.1,
+      "x": 249,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 512.53125,
+        "w": 76.859375,
+        "h": 48
+      }
+    },
+    {
+      "kind": "scroll",
+      "t": 12817.5,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 19666.9,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 19716.6,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 19718.5,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 510.046875,
+        "w": 1048,
+        "h": 53
+      }
+    },
+    {
+      "kind": "click",
+      "t": 19721.3,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 510.046875,
+        "w": 1048,
+        "h": 53
+      }
+    },
+    {
+      "kind": "scroll",
+      "t": 19734.1,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 19750.6,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 19817,
+      "x": 326,
+      "y": 536,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 19817.8,
+      "x": 326,
+      "y": 536,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 512.375,
+        "w": 229.921875,
+        "h": 48
+      }
+    },
+    {
+      "kind": "click",
+      "t": 19818.7,
+      "x": 326,
+      "y": 536,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 512.375,
+        "w": 229.921875,
+        "h": 48
+      }
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "chatgpt-agent-002",
+  "label": "agent",
+  "agent": "chatgpt-agent",
+  "device": "desktop",
+  "notes": "Recorded 2026-10-18 on the demo contribute page: ChatGPT agent (Chrome extension, started from ChatGPT Work mode) filled the booking form, pressed Book, opened Item 25, then stopped the recording and labelled it.",
+  "consent": "author",
+  "env": {
+    "webdriver": false,
+    "automationTraces": []
+  },
+  "events": [
+    {
+      "kind": "marker",
+      "t": 458.4,
+      "agent": "chatgpt-agent",
+      "marker": "#codex-agent-overlay-root"
+    },
+    {
+      "kind": "scroll",
+      "t": 12218.2,
+      "trusted": true
+    },
+    {
+      "kind": "paste",
+      "t": 12228.5,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 12228.8,
+      "trusted": false,
+      "inputType": null,
+      "length": 12,
+      "field": "text"
+    },
+    {
+      "kind": "scroll",
+      "t": 12657.6,
+      "trusted": true
+    },
+    {
+      "kind": "paste",
+      "t": 12660,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 12660.3,
+      "trusted": false,
+      "inputType": null,
+      "length": 14,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 13108.8,
+      "trusted": false,
+      "inputType": null,
+      "length": 5,
+      "field": "select"
+    },
+    {
+      "kind": "change",
+      "t": 13108.8,
+      "trusted": false,
+      "field": "select"
+    },
+    {
+      "kind": "scroll",
+      "t": 13571.6,
+      "trusted": true
+    },
+    {
+      "kind": "paste",
+      "t": 13574.1,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 13574.2,
+      "trusted": false,
+      "inputType": null,
+      "length": 15,
+      "field": "text"
+    },
+    {
+      "kind": "scroll",
+      "t": 14190.9,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 14243.9,
+      "x": 221.5,
+      "y": 508.53125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 14246.8,
+      "x": 221.5,
+      "y": 508.53125,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 215,
+        "y": 502.03125,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "kind": "click",
+      "t": 14249,
+      "x": 221,
+      "y": 508,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 215,
+        "y": 502.03125,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "kind": "input",
+      "t": 14249.2,
+      "trusted": true,
+      "inputType": null,
+      "length": 2,
+      "field": "checkbox"
+    },
+    {
+      "kind": "change",
+      "t": 14249.3,
+      "trusted": true,
+      "field": "checkbox"
+    },
+    {
+      "kind": "scroll",
+      "t": 14996.3,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 15027.9,
+      "x": 249.4296875,
+      "y": 508.53125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 15030.2,
+      "x": 249.4296875,
+      "y": 508.53125,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 484.53125,
+        "w": 76.859375,
+        "h": 48
+      }
+    },
+    {
+      "kind": "click",
+      "t": 15033.1,
+      "x": 249,
+      "y": 508,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 484.53125,
+        "w": 76.859375,
+        "h": 48
+      }
+    },
+    {
+      "kind": "move",
+      "t": 16271.2,
+      "x": 735,
+      "y": 508.5,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "scroll",
+      "t": 16310.4,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16329.4,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16346.1,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16362.3,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16376.5,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16392.6,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16414,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16426.7,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16446.2,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 16466.7,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 25380.8,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 25410.3,
+      "x": 735,
+      "y": 508.546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 25413.5,
+      "x": 735,
+      "y": 508.546875,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 482.046875,
+        "w": 1048,
+        "h": 53
+      }
+    },
+    {
+      "kind": "click",
+      "t": 25415.5,
+      "x": 735,
+      "y": 508,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 482.046875,
+        "w": 1048,
+        "h": 53
+      }
+    },
+    {
+      "kind": "scroll",
+      "t": 25426.6,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 27402.1,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 27426.8,
+      "x": 325.9609375,
+      "y": 508.375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 27428.2,
+      "x": 325.9609375,
+      "y": 508.375,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 484.375,
+        "w": 229.921875,
+        "h": 48
+      }
+    },
+    {
+      "kind": "click",
+      "t": 27431.1,
+      "x": 325,
+      "y": 508,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 484.375,
+        "w": 229.921875,
+        "h": 48
+      }
+    }
+  ]
+}

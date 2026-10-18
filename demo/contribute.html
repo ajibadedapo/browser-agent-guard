@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contribute a session: browser-agent-guard</title>
+<meta name="description" content="Record a session on the browser-agent-guard demo and offer it as public test data.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the task</a>
+<header>
+  <p><strong>browser-agent-guard</strong> demo</p>
+  <nav aria-label="Site">
+    <ul>
+      <li><a href="./">Live demo</a></li>
+      <li><a href="contribute.html" aria-current="page">Contribute a session</a></li>
+      <li><a href="https://github.com/ajibadedapo/browser-agent-guard">Source on GitHub</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main" tabindex="-1">
+  <h1>Contribute a session</h1>
+  <p>The detector is tested against real recorded sessions. You can add one by doing a short task on this page, by hand or with a browser agent.</p>
+  <h2>What is recorded</h2>
+  <ul>
+    <li>Pointer positions and times, clicks and the size and position of what was clicked.</li>
+    <li>When keys were pressed, and whether each was a character key or a shortcut, but never which key.</li>
+    <li>How long each field's content is, never the content itself. Password and autofill fields record no length.</li>
+    <li>Scrolling, pasting and whether each event came from real input.</li>
+    <li>Whether the browser reports that it is automated.</li>
+  </ul>
+  <p>Nothing leaves your browser. There is no server. You review the exact file before you download it, and you decide whether to submit it.</p>
+
+  <h2>Step 1: do the task</h2>
+  <p>Recording started when this page loaded. Fill in the form, pick a time, then press Book. After that, scroll down and open item 25 in the list. You can type anything in the form. The text is never kept, only its length.</p>
+  <form id="booking">
+    <label for="name">Full name</label>
+    <input id="name" name="name" autocomplete="off">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="off">
+    <label for="time">Time</label>
+    <select id="time" name="time">
+      <option value="">Choose</option>
+      <option>18:00</option>
+      <option>19:00</option>
+      <option>20:00</option>
+    </select>
+    <label for="notes">Notes</label>
+    <textarea id="notes" name="notes" rows="3"></textarea>
+    <label class="choice" for="terms"><input type="checkbox" id="terms" name="terms">I agree to the booking rules</label>
+    <button type="submit" id="book">Book</button>
+  </form>
+  <p id="done" role="status" aria-live="polite"></p>
+  <h3>Items</h3>
+  <ul id="list" class="items"></ul>
+
+  <h2>Step 2: stop recording</h2>
+  <p>When you have opened item 25, stop the recording. Nothing after this point is recorded.</p>
+  <button type="button" id="finish">Stop recording and review</button>
+  <p id="recording-status" role="status" aria-live="polite">Recording.</p>
+
+  <h2 id="review-heading" tabindex="-1">Step 3: describe and review</h2>
+  <fieldset id="session-details" disabled>
+    <legend>About this session</legend>
+    <fieldset>
+      <legend>Who did the task?</legend>
+      <label class="choice" for="label-human"><input type="radio" id="label-human" name="label" value="human" checked>A person</label>
+      <label class="choice" for="label-agent"><input type="radio" id="label-agent" name="label" value="agent">A browser agent</label>
+    </fieldset>
+    <label for="agent-name">Agent name</label>
+    <input id="agent-name" name="agent-name" autocomplete="off" aria-describedby="agent-name-hint">
+    <p id="agent-name-hint" class="hint">Only for agent sessions. Use the product name, and the version if you know it.</p>
+    <label for="device">Device</label>
+    <select id="device" name="device">
+      <option value="desktop">Desktop or laptop</option>
+      <option value="phone">Phone</option>
+      <option value="tablet">Tablet</option>
+    </select>
+    <label for="session-notes">Notes</label>
+    <textarea id="session-notes" name="session-notes" rows="3" aria-describedby="session-notes-hint"></textarea>
+    <p id="session-notes-hint" class="hint">Optional. Published exactly as written, so do not include personal details. Useful: input method (mouse, trackpad, keyboard only, screen reader), browser, anything unusual.</p>
+
+    <h3 id="preview-heading">The exact file that would be published</h3>
+    <pre id="preview" tabindex="0" aria-labelledby="preview-heading"></pre>
+
+    <label class="choice" for="consent"><input type="checkbox" id="consent" name="consent">I agree this session data, which contains timing and movement but no typed text, is published under the MIT licence as test data</label>
+    <button type="button" id="download" disabled aria-describedby="download-hint">Download session file</button>
+    <p id="download-hint" class="hint" aria-live="polite"></p>
+  </fieldset>
+
+  <h2>Step 4: submit it</h2>
+  <p>Open the <a href="https://github.com/ajibadedapo/browser-agent-guard/issues/new?template=session.yml">session submission form on GitHub</a> and attach the downloaded file. A maintainer checks it before adding it to the test data. Submitting needs a GitHub account; if you would rather not, you can stop here and nothing is shared.</p>
+</main>
+<footer>
+  <p>MIT licensed. Recording and review happen entirely in your browser.</p>
+</footer>
+<script type="module" src="dist/contribute.js"></script>
+</body>
+</html>

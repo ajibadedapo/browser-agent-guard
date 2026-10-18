@@ -1,0 +1,3851 @@
+{
+  "id": "human-desktop-001",
+  "label": "human",
+  "device": "desktop",
+  "notes": "Hammed completing the spike booking task by hand with a mouse and keyboard. Converted from research/spike-2026-10-18/sessions.json by scripts/convert-spike.ts. The spike kept only the last 400 of 426 pointer moves, so 26 moves before t=1102 ms are lost. Move events come from the spike's move sample, which has no pointer type; they are recorded as mouse. Press rects are reconstructed from offsetFromCentre with approximate element sizes taken from the spike page CSS, so rect x and y are exact relative to the recorded offset but w and h are estimates. Only pointerdown and click are kept as presses; mouse and pointerup events are dropped. A null or empty pointer type (keyboard or assistive technology activation) is recorded as keyboard. Input length is the field value length after the input, never the content. Key and code identities were scrubbed in the spike; printable comes from the spike's char marker.",
+  "consent": "author",
+  "env": {
+    "webdriver": false,
+    "automationTraces": []
+  },
+  "events": [
+    {
+      "kind": "move",
+      "t": 1102,
+      "x": 535.046875,
+      "y": 265.58203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1118,
+      "x": 526.9453125,
+      "y": 254.62890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1134,
+      "x": 515.2734375,
+      "y": 237.76953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1151,
+      "x": 505.96484375,
+      "y": 222.9296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1168,
+      "x": 495.8125,
+      "y": 207.0546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1184,
+      "x": 489.9609375,
+      "y": 197.39453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1201,
+      "x": 484.5,
+      "y": 189.4765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1221,
+      "x": 481.60546875,
+      "y": 184.54296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1234,
+      "x": 479.8671875,
+      "y": 182.12109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1251,
+      "x": 479.26171875,
+      "y": 180.60546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1267,
+      "x": 479.26171875,
+      "y": 179.45703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1284,
+      "x": 479.26171875,
+      "y": 178.62109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1301,
+      "x": 479.26171875,
+      "y": 178.09765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1318,
+      "x": 479.26171875,
+      "y": 177.26171875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1335,
+      "x": 479.51953125,
+      "y": 176.73828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1351,
+      "x": 479.77734375,
+      "y": 176.21484375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1385,
+      "x": 479.77734375,
+      "y": 175.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1401,
+      "x": 480.015625,
+      "y": 175.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1452,
+      "x": 480.25,
+      "y": 175.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 1478,
+      "x": 480.25,
+      "y": 175.9765625,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 360.13,
+        "y": 150.137,
+        "w": 728,
+        "h": 38
+      }
+    },
+    {
+      "kind": "click",
+      "t": 1610,
+      "x": 480,
+      "y": 175,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 360.608,
+        "y": 150.11,
+        "w": 728,
+        "h": 38
+      }
+    },
+    {
+      "kind": "move",
+      "t": 2335,
+      "x": 479.78515625,
+      "y": 175.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2351,
+      "x": 477.4765625,
+      "y": 175.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2369,
+      "x": 476.2734375,
+      "y": 175.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2385,
+      "x": 475.75,
+      "y": 175.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2418,
+      "x": 475.75,
+      "y": 175.734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2435,
+      "x": 479.63671875,
+      "y": 175.4296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2451,
+      "x": 486.23046875,
+      "y": 175.4296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2468,
+      "x": 492.82421875,
+      "y": 175.4296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2484,
+      "x": 500.9765625,
+      "y": 178.3671875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2502,
+      "x": 505.5078125,
+      "y": 181.65234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2517,
+      "x": 508.08984375,
+      "y": 184.60546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2534,
+      "x": 510.30078125,
+      "y": 187.55859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 2544,
+      "x": 511.66015625,
+      "y": 190.28515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3001,
+      "x": 505.83984375,
+      "y": 187.3046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3018,
+      "x": 1194.75390625,
+      "y": 429.08984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3034,
+      "x": 503.41015625,
+      "y": 180.4140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3051,
+      "x": 503.09375,
+      "y": 178.53125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3067,
+      "x": 502.8046875,
+      "y": 177.3828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3084,
+      "x": 502.54296875,
+      "y": 176.546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3101,
+      "x": 502.54296875,
+      "y": 176.0234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3118,
+      "x": 502.28125,
+      "y": 175.76171875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3135,
+      "x": 502.28125,
+      "y": 175.515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 3151,
+      "x": 502.28125,
+      "y": 175.2734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "key",
+      "t": 3644,
+      "trusted": true,
+      "printable": false,
+      "modifier": null
+    },
+    {
+      "kind": "key",
+      "t": 3702,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 3702,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 1,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 3959,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 3960,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 2,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 4148,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 4149,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 3,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 4284,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 4285,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 4,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 4376,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 4376,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 5,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 4592,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 4593,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 6,
+      "field": "text"
+    },
+    {
+      "kind": "move",
+      "t": 4951,
+      "x": 502.046875,
+      "y": 175.2734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 4968,
+      "x": 493.34765625,
+      "y": 179.625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 4984,
+      "x": 486.61328125,
+      "y": 185.87109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 4993,
+      "x": 481.17578125,
+      "y": 191.30078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5101,
+      "x": 447.18359375,
+      "y": 222.76171875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5117,
+      "x": 443.20703125,
+      "y": 225.93359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5134,
+      "x": 438.8359375,
+      "y": 228.70703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5151,
+      "x": 435.5078125,
+      "y": 231.2890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5168,
+      "x": 432.7734375,
+      "y": 232.6484375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5184,
+      "x": 430.890625,
+      "y": 233.8984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5201,
+      "x": 429.7421875,
+      "y": 234.46875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5218,
+      "x": 428.90625,
+      "y": 234.46875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5235,
+      "x": 428.0703125,
+      "y": 234.46875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5251,
+      "x": 426.97265625,
+      "y": 234.46875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5268,
+      "x": 426.13671875,
+      "y": 234.46875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5285,
+      "x": 424.62109375,
+      "y": 234.1796875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5301,
+      "x": 423.47265625,
+      "y": 233.890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5318,
+      "x": 421.95703125,
+      "y": 233.890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5335,
+      "x": 420.44140625,
+      "y": 233.890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5351,
+      "x": 418.55859375,
+      "y": 233.890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5368,
+      "x": 417.04296875,
+      "y": 234.80078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5385,
+      "x": 415.89453125,
+      "y": 235.94140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5402,
+      "x": 414.37890625,
+      "y": 237.13671875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5418,
+      "x": 412.41015625,
+      "y": 238.78515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5436,
+      "x": 410.75390625,
+      "y": 240.74609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5450,
+      "x": 409.18359375,
+      "y": 242.30859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5467,
+      "x": 408.265625,
+      "y": 243.81640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5484,
+      "x": 407.40234375,
+      "y": 244.671875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5501,
+      "x": 407.140625,
+      "y": 245.1875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5518,
+      "x": 406.87890625,
+      "y": 245.4453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 5561,
+      "x": 406.87890625,
+      "y": 245.4453125,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 357.375,
+        "y": 224.013,
+        "w": 728,
+        "h": 38
+      }
+    },
+    {
+      "kind": "change",
+      "t": 5562,
+      "trusted": true,
+      "field": "text"
+    },
+    {
+      "kind": "move",
+      "t": 5601,
+      "x": 406.87890625,
+      "y": 245.5625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "click",
+      "t": 5712,
+      "x": 406,
+      "y": 245,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 357.224,
+        "y": 223.986,
+        "w": 728,
+        "h": 38
+      }
+    },
+    {
+      "kind": "move",
+      "t": 5818,
+      "x": 407.91015625,
+      "y": 245.5625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5835,
+      "x": 409.78515625,
+      "y": 245.5625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5851,
+      "x": 412.734375,
+      "y": 245.5625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5868,
+      "x": 417.0703125,
+      "y": 244.87890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5885,
+      "x": 422.421875,
+      "y": 243.65625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5901,
+      "x": 429.6640625,
+      "y": 240.9375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5918,
+      "x": 439.0703125,
+      "y": 236.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 5935,
+      "x": 452.859375,
+      "y": 228.5703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6368,
+      "x": 457.23046875,
+      "y": 228.5703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6385,
+      "x": 460.4375,
+      "y": 229.27734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6401,
+      "x": 465.1953125,
+      "y": 230.86328125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6418,
+      "x": 468.8828125,
+      "y": 231.96875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6434,
+      "x": 471.18359375,
+      "y": 232.62109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6451,
+      "x": 472.32421875,
+      "y": 233.19140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6467,
+      "x": 472.83984375,
+      "y": 233.19140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6484,
+      "x": 473.09765625,
+      "y": 233.44921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6501,
+      "x": 473.35546875,
+      "y": 233.44921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6518,
+      "x": 473.35546875,
+      "y": 233.6875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6535,
+      "x": 473.61328125,
+      "y": 233.9453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6551,
+      "x": 473.87109375,
+      "y": 234.4609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6568,
+      "x": 474.38671875,
+      "y": 234.9765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6585,
+      "x": 474.64453125,
+      "y": 235.4921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6601,
+      "x": 475.21484375,
+      "y": 236.6328125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6619,
+      "x": 476.09765625,
+      "y": 238.140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6634,
+      "x": 476.98046875,
+      "y": 240.21875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6651,
+      "x": 477.578125,
+      "y": 241.7265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6669,
+      "x": 477.890625,
+      "y": 243.6015625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6684,
+      "x": 477.890625,
+      "y": 245.109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6701,
+      "x": 477.890625,
+      "y": 246.984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6717,
+      "x": 477.890625,
+      "y": 248.859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6734,
+      "x": 477.890625,
+      "y": 250.734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6751,
+      "x": 477.890625,
+      "y": 252.2421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6767,
+      "x": 477.890625,
+      "y": 253.0703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6784,
+      "x": 477.62890625,
+      "y": 253.5859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6801,
+      "x": 477.62890625,
+      "y": 253.84375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6851,
+      "x": 477.62890625,
+      "y": 252.16796875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6868,
+      "x": 477.62890625,
+      "y": 248.953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 6885,
+      "x": 478.76171875,
+      "y": 244.72265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "key",
+      "t": 7175,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 7176,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 1,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 7310,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 7311,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 2,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 7452,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 7452,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 3,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 7643,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 7644,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 4,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 7693,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 7693,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 5,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 7893,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 7894,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 6,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 8103,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 8104,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 7,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 8650,
+      "trusted": true,
+      "printable": false,
+      "modifier": null
+    },
+    {
+      "kind": "key",
+      "t": 8747,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 8747,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 8,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 9043,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 9043,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 9,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 9387,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 9388,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 10,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 9542,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 9543,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 11,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 9710,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 9711,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 12,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 9941,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 9942,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 13,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 10216,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 10218,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 14,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 10494,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 10494,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 15,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 10729,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 10730,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 16,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 11107,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 11108,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 17,
+      "field": "text"
+    },
+    {
+      "kind": "move",
+      "t": 11452,
+      "x": 478.76171875,
+      "y": 250.4296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11469,
+      "x": 478.76171875,
+      "y": 259.078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11484,
+      "x": 478.76171875,
+      "y": 269.2421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11501,
+      "x": 479.2109375,
+      "y": 277.1875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11517,
+      "x": 481.52734375,
+      "y": 285.1328125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11535,
+      "x": 485.92578125,
+      "y": 297.80078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11551,
+      "x": 488.47265625,
+      "y": 303.96875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11568,
+      "x": 491.46875,
+      "y": 309.515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11585,
+      "x": 493.51171875,
+      "y": 311.6171875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11601,
+      "x": 496.3828125,
+      "y": 312.52734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11618,
+      "x": 498.68359375,
+      "y": 312.2109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11634,
+      "x": 501.63671875,
+      "y": 309.62109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11651,
+      "x": 504.58984375,
+      "y": 307.40234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11669,
+      "x": 506.63671875,
+      "y": 305.34765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11684,
+      "x": 507.88671875,
+      "y": 303.46484375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11701,
+      "x": 509.47265625,
+      "y": 298.69921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11718,
+      "x": 511.67578125,
+      "y": 292.09765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11734,
+      "x": 518.78125,
+      "y": 277.875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11752,
+      "x": 531.4921875,
+      "y": 261.26953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 11768,
+      "x": 562.59765625,
+      "y": 232.69140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "key",
+      "t": 12133,
+      "trusted": true,
+      "printable": false,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12135,
+      "trusted": true,
+      "inputType": "deleteContentBackward",
+      "length": 16,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12298,
+      "trusted": true,
+      "printable": false,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12299,
+      "trusted": true,
+      "inputType": "deleteContentBackward",
+      "length": 15,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12448,
+      "trusted": true,
+      "printable": false,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12448,
+      "trusted": true,
+      "inputType": "deleteContentBackward",
+      "length": 14,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 12915,
+      "trusted": true,
+      "printable": false,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 12916,
+      "trusted": true,
+      "inputType": "deleteContentBackward",
+      "length": 13,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 13348,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 13350,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 14,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 13495,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 13496,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 15,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 13642,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 13643,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 16,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 13867,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 13868,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 17,
+      "field": "text"
+    },
+    {
+      "kind": "move",
+      "t": 14152,
+      "x": 562.59765625,
+      "y": 233.15234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14167,
+      "x": 559.8671875,
+      "y": 239.75390625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14184,
+      "x": 558.2734375,
+      "y": 244.51171875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14202,
+      "x": 557.1328125,
+      "y": 248.734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14218,
+      "x": 555.54296875,
+      "y": 253.71875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14235,
+      "x": 553.75390625,
+      "y": 259.40625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14251,
+      "x": 552.16015625,
+      "y": 264.1640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14268,
+      "x": 551.046875,
+      "y": 267.8515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14284,
+      "x": 550.07421875,
+      "y": 270.15234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14301,
+      "x": 549.44140625,
+      "y": 272.02734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14318,
+      "x": 548.5234375,
+      "y": 273.53515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14335,
+      "x": 547.578125,
+      "y": 275.41015625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14351,
+      "x": 546.265625,
+      "y": 277.7109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14368,
+      "x": 544.78515625,
+      "y": 281.453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14385,
+      "x": 543.78515625,
+      "y": 284.234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14401,
+      "x": 542.69921875,
+      "y": 287.44140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14418,
+      "x": 541.61328125,
+      "y": 290.6484375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14435,
+      "x": 539.73046875,
+      "y": 296.234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14451,
+      "x": 539.015625,
+      "y": 299.44140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14467,
+      "x": 538.2734375,
+      "y": 303.12890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14485,
+      "x": 537.1875,
+      "y": 306.3359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14502,
+      "x": 536.5,
+      "y": 309.0625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14518,
+      "x": 536.18359375,
+      "y": 311.36328125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14534,
+      "x": 535.15625,
+      "y": 314.08984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14551,
+      "x": 534.46875,
+      "y": 316.81640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14568,
+      "x": 533.8359375,
+      "y": 318.69140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14584,
+      "x": 533.23046875,
+      "y": 320.19921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14601,
+      "x": 532.94140625,
+      "y": 321.02734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14618,
+      "x": 532.6796875,
+      "y": 321.54296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14634,
+      "x": 532.6796875,
+      "y": 321.80078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 14651,
+      "x": 532.6796875,
+      "y": 322.04296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 14678,
+      "x": 532.6796875,
+      "y": 322.04296875,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 362.328,
+        "y": 298.065,
+        "w": 728,
+        "h": 38
+      }
+    },
+    {
+      "kind": "change",
+      "t": 14679,
+      "trusted": true,
+      "field": "text"
+    },
+    {
+      "kind": "click",
+      "t": 14687,
+      "x": 532,
+      "y": 322,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 362.376,
+        "y": 298.06,
+        "w": 728,
+        "h": 38
+      }
+    },
+    {
+      "kind": "input",
+      "t": 15756,
+      "trusted": true,
+      "inputType": null,
+      "length": 5,
+      "field": "select"
+    },
+    {
+      "kind": "change",
+      "t": 15757,
+      "trusted": true,
+      "field": "select"
+    },
+    {
+      "kind": "click",
+      "t": 15757,
+      "x": 355,
+      "y": 297,
+      "pointer": "keyboard",
+      "trusted": true,
+      "rect": {
+        "x": 355,
+        "y": 297.418,
+        "w": 728,
+        "h": 38
+      }
+    },
+    {
+      "kind": "move",
+      "t": 15818,
+      "x": 494.26953125,
+      "y": 385.69921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15834,
+      "x": 493.84375,
+      "y": 389.609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15851,
+      "x": 493.4453125,
+      "y": 393.83203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15867,
+      "x": 493.1015625,
+      "y": 397.0390625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15884,
+      "x": 492.44140625,
+      "y": 399.33984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15901,
+      "x": 492.15234375,
+      "y": 400.48046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15919,
+      "x": 491.890625,
+      "y": 401.30859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15935,
+      "x": 491.62890625,
+      "y": 401.82421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15951,
+      "x": 491.62890625,
+      "y": 402.08203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 15968,
+      "x": 491.38671875,
+      "y": 402.08203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 16012,
+      "x": 491.38671875,
+      "y": 402.08203125,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 361.075,
+        "y": 370.18,
+        "w": 728,
+        "h": 78
+      }
+    },
+    {
+      "kind": "click",
+      "t": 16110,
+      "x": 491,
+      "y": 402,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 360.688,
+        "y": 370.176,
+        "w": 728,
+        "h": 78
+      }
+    },
+    {
+      "kind": "move",
+      "t": 16118,
+      "x": 491.38671875,
+      "y": 400.890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 16133,
+      "x": 491.38671875,
+      "y": 399.04296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "key",
+      "t": 17086,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 17087,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 1,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 17285,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 17286,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 2,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 17410,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 17411,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 3,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 17515,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 17516,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 4,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 17670,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 17671,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 5,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 17988,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 17990,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 6,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 18241,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 18242,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 7,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 18481,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 18483,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 8,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 18637,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 18638,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 9,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 18792,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 18793,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 10,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 18896,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 18897,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 11,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 19096,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 19097,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 12,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 19280,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 19281,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 13,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 19293,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 19294,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 14,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 19552,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 19553,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 15,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 19677,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 19678,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 16,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 19900,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 19900,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 17,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 20111,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 20112,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 18,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 20210,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 20211,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 19,
+      "field": "text"
+    },
+    {
+      "kind": "key",
+      "t": 20327,
+      "trusted": true,
+      "printable": true,
+      "modifier": null
+    },
+    {
+      "kind": "input",
+      "t": 20328,
+      "trusted": true,
+      "inputType": "insertText",
+      "length": 20,
+      "field": "text"
+    },
+    {
+      "kind": "move",
+      "t": 20752,
+      "x": 490.921875,
+      "y": 399.04296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20768,
+      "x": 486.69140625,
+      "y": 399.8359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20784,
+      "x": 481.92578125,
+      "y": 401.81640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20801,
+      "x": 473.86328125,
+      "y": 404.6953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20818,
+      "x": 462.05859375,
+      "y": 407.90625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20834,
+      "x": 445.984375,
+      "y": 413.06640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20851,
+      "x": 437.328125,
+      "y": 416.91015625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20868,
+      "x": 431.85546875,
+      "y": 419.82421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20885,
+      "x": 426.75390625,
+      "y": 423.64453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20902,
+      "x": 423.0390625,
+      "y": 427.75,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20918,
+      "x": 421.28125,
+      "y": 433.75,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20934,
+      "x": 421.28125,
+      "y": 440.34375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20951,
+      "x": 421.73046875,
+      "y": 447.5859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20968,
+      "x": 424.89453125,
+      "y": 454.828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 20984,
+      "x": 428.51171875,
+      "y": 462.0703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21001,
+      "x": 431.59375,
+      "y": 468.2109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21018,
+      "x": 434.56640625,
+      "y": 473.73046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21034,
+      "x": 437.6484375,
+      "y": 479.87109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21051,
+      "x": 440.37109375,
+      "y": 483.44140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21068,
+      "x": 442.953125,
+      "y": 486.390625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21301,
+      "x": 442.48828125,
+      "y": 486.390625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21318,
+      "x": 438.375,
+      "y": 490.5234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21334,
+      "x": 433.22265625,
+      "y": 497.0546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21352,
+      "x": 429.14453125,
+      "y": 503.84375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21368,
+      "x": 421.04296875,
+      "y": 516.58984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21384,
+      "x": 414.6640625,
+      "y": 529.90234375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21401,
+      "x": 407.40234375,
+      "y": 548.8046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21417,
+      "x": 404.34765625,
+      "y": 558.96875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21434,
+      "x": 401.0625,
+      "y": 566.9140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21451,
+      "x": 397.546875,
+      "y": 572.62890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21468,
+      "x": 393.69140625,
+      "y": 577.78125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21485,
+      "x": 389.15234375,
+      "y": 581.48828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21501,
+      "x": 383.625,
+      "y": 584.4609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21518,
+      "x": 377.671875,
+      "y": 586.15625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21534,
+      "x": 369.015625,
+      "y": 586.63671875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21551,
+      "x": 358.84375,
+      "y": 586.63671875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21568,
+      "x": 345.828125,
+      "y": 584.5703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21585,
+      "x": 331.9453125,
+      "y": 579.34765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21601,
+      "x": 317.7265625,
+      "y": 572.828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21619,
+      "x": 304.6875,
+      "y": 564.53125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21634,
+      "x": 293.9609375,
+      "y": 554.93359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21651,
+      "x": 285.12109375,
+      "y": 545.58984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21668,
+      "x": 276.49609375,
+      "y": 532.55859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21684,
+      "x": 273.94140625,
+      "y": 527.0859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21701,
+      "x": 271.8125,
+      "y": 521.1328125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21718,
+      "x": 270.5625,
+      "y": 515.7734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21734,
+      "x": 270.5625,
+      "y": 511.54296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21751,
+      "x": 270.5625,
+      "y": 507.19921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21768,
+      "x": 271.66796875,
+      "y": 505.14453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 21784,
+      "x": 272.29296875,
+      "y": 504.203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22034,
+      "x": 272.29296875,
+      "y": 503.5,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22051,
+      "x": 272.29296875,
+      "y": 499.8046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22068,
+      "x": 273.3984375,
+      "y": 496.109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22084,
+      "x": 275.43359375,
+      "y": 490.75,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22101,
+      "x": 277.7265625,
+      "y": 486.51953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22118,
+      "x": 280.41796875,
+      "y": 483.05078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22135,
+      "x": 283.73828125,
+      "y": 480.4609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22151,
+      "x": 288.07421875,
+      "y": 478.5,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22169,
+      "x": 292.41015625,
+      "y": 476.87890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22184,
+      "x": 297.875,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22201,
+      "x": 305.171875,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22217,
+      "x": 313.83203125,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22234,
+      "x": 318.0546875,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22252,
+      "x": 323.7421875,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22268,
+      "x": 330.4453125,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22285,
+      "x": 336.390625,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22301,
+      "x": 340.7265625,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22318,
+      "x": 346.078125,
+      "y": 475.97265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22334,
+      "x": 350.8359375,
+      "y": 475.57421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22351,
+      "x": 355.05859375,
+      "y": 475.57421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22367,
+      "x": 360.41015625,
+      "y": 474.75,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22384,
+      "x": 363.6171875,
+      "y": 474.03515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22401,
+      "x": 367.3046875,
+      "y": 472.55078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22418,
+      "x": 370.51171875,
+      "y": 471.125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22435,
+      "x": 373.46484375,
+      "y": 468.90625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22451,
+      "x": 375.96484375,
+      "y": 466.76953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22468,
+      "x": 377.55859375,
+      "y": 465.16796875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22484,
+      "x": 378.69921875,
+      "y": 464.01953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22501,
+      "x": 379.78515625,
+      "y": 463.73046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22518,
+      "x": 380.30078125,
+      "y": 463.73046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22534,
+      "x": 380.81640625,
+      "y": 463.73046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22551,
+      "x": 381.07421875,
+      "y": 463.73046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22568,
+      "x": 381.3125,
+      "y": 463.73046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22601,
+      "x": 381.3125,
+      "y": 463.96484375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22619,
+      "x": 381.3125,
+      "y": 464.79296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22634,
+      "x": 381.3125,
+      "y": 465.93359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22651,
+      "x": 380.99609375,
+      "y": 467.44140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22668,
+      "x": 379.79296875,
+      "y": 468.94921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22684,
+      "x": 378.08203125,
+      "y": 471.3359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22701,
+      "x": 376.02734375,
+      "y": 473.3828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22718,
+      "x": 374.37109375,
+      "y": 475.34375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22735,
+      "x": 373.16796875,
+      "y": 476.8515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22752,
+      "x": 372.01953125,
+      "y": 477.9921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22768,
+      "x": 371.18359375,
+      "y": 478.8203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22784,
+      "x": 370.3984375,
+      "y": 479.59375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22801,
+      "x": 370.3984375,
+      "y": 479.8359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22818,
+      "x": 370.15234375,
+      "y": 479.8359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 22868,
+      "x": 370.15234375,
+      "y": 480.0703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 22894,
+      "x": 370.15234375,
+      "y": 480.0703125,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 355.592,
+        "y": 462.37,
+        "w": 728,
+        "h": 20
+      }
+    },
+    {
+      "kind": "change",
+      "t": 22895,
+      "trusted": true,
+      "field": "text"
+    },
+    {
+      "kind": "click",
+      "t": 22976,
+      "x": 370,
+      "y": 480,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 355.44,
+        "y": 462.38,
+        "w": 728,
+        "h": 20
+      }
+    },
+    {
+      "kind": "click",
+      "t": 22976,
+      "x": 370,
+      "y": 480,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 359.002,
+        "y": 465.934,
+        "w": 13,
+        "h": 13
+      }
+    },
+    {
+      "kind": "input",
+      "t": 22977,
+      "trusted": true,
+      "inputType": null,
+      "length": 2,
+      "field": "checkbox"
+    },
+    {
+      "kind": "change",
+      "t": 22977,
+      "trusted": true,
+      "field": "checkbox"
+    },
+    {
+      "kind": "move",
+      "t": 23234,
+      "x": 370.15234375,
+      "y": 480.30078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23251,
+      "x": 370.15234375,
+      "y": 480.87109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23268,
+      "x": 370.15234375,
+      "y": 482.74609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23284,
+      "x": 370.15234375,
+      "y": 485.47265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23301,
+      "x": 370.46484375,
+      "y": 487.7734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23318,
+      "x": 371.484375,
+      "y": 490.5,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23334,
+      "x": 374.0078125,
+      "y": 495.18359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23351,
+      "x": 375.3125,
+      "y": 497.484375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23368,
+      "x": 376.671875,
+      "y": 500.2109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23384,
+      "x": 377.9765625,
+      "y": 502.51171875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23401,
+      "x": 379.3359375,
+      "y": 505.23828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23418,
+      "x": 380.30078125,
+      "y": 507.5390625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23434,
+      "x": 380.953125,
+      "y": 509.83984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23451,
+      "x": 381.5234375,
+      "y": 510.98046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23468,
+      "x": 382.06640625,
+      "y": 511.80859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23484,
+      "x": 382.06640625,
+      "y": 512.32421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23501,
+      "x": 382.06640625,
+      "y": 512.83984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23518,
+      "x": 382.32421875,
+      "y": 513.09765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23535,
+      "x": 382.32421875,
+      "y": 513.35546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23551,
+      "x": 382.32421875,
+      "y": 513.85546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23569,
+      "x": 382.58203125,
+      "y": 514.11328125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23584,
+      "x": 382.58203125,
+      "y": 514.35546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23618,
+      "x": 382.58203125,
+      "y": 514.8359375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23634,
+      "x": 382.58203125,
+      "y": 515.078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23651,
+      "x": 382.58203125,
+      "y": 515.3203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23668,
+      "x": 382.58203125,
+      "y": 515.55859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 23984,
+      "x": 382.8125,
+      "y": 515.55859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24002,
+      "x": 383.3828125,
+      "y": 515.84375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24018,
+      "x": 387.125,
+      "y": 516.578125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24034,
+      "x": 396.53125,
+      "y": 519.5703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24051,
+      "x": 411.984375,
+      "y": 524.92578125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24068,
+      "x": 434.16015625,
+      "y": 532.55859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24084,
+      "x": 459.32421875,
+      "y": 539.73828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24101,
+      "x": 484.48828125,
+      "y": 546.1875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24118,
+      "x": 513.39453125,
+      "y": 555.3125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24134,
+      "x": 554.1171875,
+      "y": 576.3046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24151,
+      "x": 590.62890625,
+      "y": 605.80078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24168,
+      "x": 606.18359375,
+      "y": 622.7109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24184,
+      "x": 613.62109375,
+      "y": 630.828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24435,
+      "x": 619.359375,
+      "y": 630.828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24451,
+      "x": 653.01171875,
+      "y": 633.98046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24468,
+      "x": 695.421875,
+      "y": 645.78515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24485,
+      "x": 745.02734375,
+      "y": 663.2578125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24501,
+      "x": 780.2578125,
+      "y": 680.44921875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24518,
+      "x": 819.11328125,
+      "y": 701.15625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24534,
+      "x": 838.64453125,
+      "y": 713.89453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24551,
+      "x": 851.0546875,
+      "y": 723.765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24567,
+      "x": 859.49609375,
+      "y": 731.16015625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24584,
+      "x": 862.1875,
+      "y": 734.62109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24601,
+      "x": 862.1875,
+      "y": 734.87890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24718,
+      "x": 858.6328125,
+      "y": 734.87890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24735,
+      "x": 858.109375,
+      "y": 734.87890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24768,
+      "x": 862.15234375,
+      "y": 734.87890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24784,
+      "x": 884.69921875,
+      "y": 737.2421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24801,
+      "x": 922.796875,
+      "y": 749.41015625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24818,
+      "x": 975.62890625,
+      "y": 771.734375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24834,
+      "x": 1026.37109375,
+      "y": 799.1328125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24851,
+      "x": 1056.921875,
+      "y": 818.6328125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24868,
+      "x": 1079.15625,
+      "y": 834.5,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24884,
+      "x": 1099.72265625,
+      "y": 851.37890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24901,
+      "x": 1107.765625,
+      "y": 858.828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24918,
+      "x": 1112.9375,
+      "y": 865.015625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 24934,
+      "x": 1113.6171875,
+      "y": 866.37890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25151,
+      "x": 1116.5390625,
+      "y": 867.96484375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25168,
+      "x": 1124.2265625,
+      "y": 872.76953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25185,
+      "x": 1132.8671875,
+      "y": 879.37890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25201,
+      "x": 1140.296875,
+      "y": 886.30078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25218,
+      "x": 1143.9140625,
+      "y": 893.08984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25235,
+      "x": 1145.35546875,
+      "y": 901.73828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25251,
+      "x": 1145.35546875,
+      "y": 910.38671875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25267,
+      "x": 1142.04296875,
+      "y": 917.8515625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25585,
+      "x": 1142.04296875,
+      "y": 917.04296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25601,
+      "x": 1142.04296875,
+      "y": 915.89453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25618,
+      "x": 1142.30078125,
+      "y": 915.37109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25634,
+      "x": 1142.30078125,
+      "y": 914.84765625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25652,
+      "x": 1142.55859375,
+      "y": 914.5859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25667,
+      "x": 1142.55859375,
+      "y": 914.0625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25684,
+      "x": 1142.55859375,
+      "y": 913.2265625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25701,
+      "x": 1142.55859375,
+      "y": 910.91796875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25718,
+      "x": 1142.55859375,
+      "y": 907.16796875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25734,
+      "x": 1142.55859375,
+      "y": 898.45703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25752,
+      "x": 1142.55859375,
+      "y": 882.06640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25768,
+      "x": 1142.55859375,
+      "y": 869.05078125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25784,
+      "x": 1142.55859375,
+      "y": 853.64453125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25801,
+      "x": 1142.55859375,
+      "y": 840.0390625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25818,
+      "x": 1143.4609375,
+      "y": 829.703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 25835,
+      "x": 1144.62109375,
+      "y": 824.87890625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "scroll",
+      "t": 26152,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 26268,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 26385,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 26500,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 26601,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 26718,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 26835,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 26951,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 27068,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 1328025,
+      "x": 1220.08203125,
+      "y": 990.796875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328692,
+      "x": 1217.5390625,
+      "y": 990.0546875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328708,
+      "x": 1206.8125,
+      "y": 981.5859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328725,
+      "x": 1191.86328125,
+      "y": 968.55859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328742,
+      "x": 1173.17578125,
+      "y": 950.57421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328758,
+      "x": 1151.4765625,
+      "y": 928.0859375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328775,
+      "x": 1128.59375,
+      "y": 901.9375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328792,
+      "x": 1108.8671875,
+      "y": 876.6875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328808,
+      "x": 1096.59765625,
+      "y": 861.73828125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328825,
+      "x": 1083.99609375,
+      "y": 845.16015625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328842,
+      "x": 1075.30078125,
+      "y": 832.99609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328858,
+      "x": 1069.13671875,
+      "y": 824.3203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328875,
+      "x": 1063.80078125,
+      "y": 817.6796875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328892,
+      "x": 1061.1015625,
+      "y": 814.2109375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328908,
+      "x": 1059.4453125,
+      "y": 812.2421875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1328925,
+      "x": 1058.609375,
+      "y": 811.40625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329591,
+      "x": 1054.234375,
+      "y": 811.40625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329608,
+      "x": 1045.5234375,
+      "y": 811.40625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329625,
+      "x": 1026.4296875,
+      "y": 810.8671875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329642,
+      "x": 991.1015625,
+      "y": 808.26953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329659,
+      "x": 948.125,
+      "y": 807.1953125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329675,
+      "x": 901.1875,
+      "y": 806.06640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329692,
+      "x": 871.3671875,
+      "y": 806.06640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329709,
+      "x": 834.171875,
+      "y": 806.06640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329724,
+      "x": 798.03125,
+      "y": 803.44140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329741,
+      "x": 778.578125,
+      "y": 801.49609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1329759,
+      "x": 771.8046875,
+      "y": 800.3671875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330042,
+      "x": 756.3046875,
+      "y": 796.24609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330058,
+      "x": 728.6875,
+      "y": 785.58984375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330076,
+      "x": 687.14453125,
+      "y": 772.9609375,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330092,
+      "x": 568.48828125,
+      "y": 742.19140625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330108,
+      "x": 459.1484375,
+      "y": 721.48046875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330126,
+      "x": 316.6015625,
+      "y": 706.17578125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330142,
+      "x": 235.6875,
+      "y": 704.81640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330159,
+      "x": 184.421875,
+      "y": 704.81640625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330175,
+      "x": 150.078125,
+      "y": 705.40625,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330193,
+      "x": 130.671875,
+      "y": 707.4296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330208,
+      "x": 116.08203125,
+      "y": 708.58203125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330475,
+      "x": 104.85546875,
+      "y": 704.04296875,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330492,
+      "x": 82.984375,
+      "y": 692.70703125,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "move",
+      "t": 1330525,
+      "x": 14.73046875,
+      "y": 652.74609375,
+      "pointer": "mouse"
+    }
+  ]
+}

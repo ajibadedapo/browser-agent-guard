@@ -1,0 +1,209 @@
+{
+  "id": "claude-in-chrome-nomarkers-003",
+  "label": "agent",
+  "agent": "claude-in-chrome",
+  "device": "desktop",
+  "notes": "Recorded 2026-10-18 on the demo contribute page: Claude in Chrome set every field by direct value setting with no typing, pressed Book, scrolled to and opened Item 25. Marker events removed to measure behaviour-only detection.",
+  "consent": "author",
+  "env": {
+    "webdriver": false,
+    "automationTraces": []
+  },
+  "events": [
+    {
+      "kind": "change",
+      "t": 8024.2,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 8024.3,
+      "trusted": false,
+      "inputType": null,
+      "length": 17,
+      "field": "text"
+    },
+    {
+      "kind": "change",
+      "t": 8027.7,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 8027.8,
+      "trusted": false,
+      "inputType": null,
+      "length": 14,
+      "field": "text"
+    },
+    {
+      "kind": "change",
+      "t": 8032.1,
+      "trusted": false,
+      "field": "select"
+    },
+    {
+      "kind": "input",
+      "t": 8032.1,
+      "trusted": false,
+      "inputType": null,
+      "length": 5,
+      "field": "select"
+    },
+    {
+      "kind": "change",
+      "t": 8036.1,
+      "trusted": false,
+      "field": "text"
+    },
+    {
+      "kind": "input",
+      "t": 8036.1,
+      "trusted": false,
+      "inputType": null,
+      "length": 19,
+      "field": "text"
+    },
+    {
+      "kind": "change",
+      "t": 8038.4,
+      "trusted": false,
+      "field": "checkbox"
+    },
+    {
+      "kind": "input",
+      "t": 8038.4,
+      "trusted": false,
+      "inputType": null,
+      "length": 2,
+      "field": "checkbox"
+    },
+    {
+      "kind": "scroll",
+      "t": 8038.9,
+      "trusted": true
+    },
+    {
+      "kind": "scroll",
+      "t": 8057,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 8096.5,
+      "x": 249,
+      "y": 537,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 8097.6,
+      "x": 249,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 511.03125,
+        "w": 76.859375,
+        "h": 48
+      }
+    },
+    {
+      "kind": "click",
+      "t": 8100,
+      "x": 249,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 511.03125,
+        "w": 76.859375,
+        "h": 48
+      }
+    },
+    {
+      "kind": "scroll",
+      "t": 17691.3,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 17737.4,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 17739,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 510.046875,
+        "w": 1048,
+        "h": 53
+      }
+    },
+    {
+      "kind": "click",
+      "t": 17740.5,
+      "x": 735,
+      "y": 537,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 510.046875,
+        "w": 1048,
+        "h": 53
+      }
+    },
+    {
+      "kind": "scroll",
+      "t": 17756.7,
+      "trusted": true
+    },
+    {
+      "kind": "move",
+      "t": 17823.3,
+      "x": 326,
+      "y": 536,
+      "pointer": "mouse"
+    },
+    {
+      "kind": "down",
+      "t": 17823.9,
+      "x": 326,
+      "y": 536,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 512.375,
+        "w": 229.921875,
+        "h": 48
+      }
+    },
+    {
+      "kind": "click",
+      "t": 17824.8,
+      "x": 326,
+      "y": 536,
+      "pointer": "mouse",
+      "trusted": true,
+      "rect": {
+        "x": 211,
+        "y": 512.375,
+        "w": 229.921875,
+        "h": 48
+      }
+    }
+  ]
+}

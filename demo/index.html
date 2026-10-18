@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>browser-agent-guard demo</title>
+<meta name="description" content="Watch browser-agent-guard decide, live, whether a person or an AI agent is using this page.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the booking form</a>
+<header>
+  <p><strong>browser-agent-guard</strong> demo</p>
+  <nav aria-label="Site">
+    <ul>
+      <li><a href="./" aria-current="page">Live demo</a></li>
+      <li><a href="contribute.html">Contribute a session</a></li>
+      <li><a href="https://github.com/ajibadedapo/browser-agent-guard">Source on GitHub</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main" tabindex="-1">
+  <div class="layout">
+    <div>
+      <h1>Book a table</h1>
+      <p>Fill in the form, pick a time, then press Book. After that, scroll down and open item 25 in the list.</p>
+      <p class="hint">This page runs browser-agent-guard. The panel shows what it has concluded so far about who is using the page. Nothing you do here is sent anywhere.</p>
+      <form id="booking" method="post">
+        <label for="name">Full name</label>
+        <input id="name" name="name" autocomplete="off">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="off">
+        <label for="time">Time</label>
+        <select id="time" name="time">
+          <option value="">Choose</option>
+          <option>18:00</option>
+          <option>19:00</option>
+          <option>20:00</option>
+        </select>
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" rows="3"></textarea>
+        <label class="choice" for="terms"><input type="checkbox" id="terms" name="terms">I agree to the booking rules</label>
+        <button type="submit" id="book">Book</button>
+      </form>
+      <p id="done" role="status" aria-live="polite"></p>
+      <h2>Items</h2>
+      <ul id="list" class="items"></ul>
+    </div>
+    <aside class="panel" aria-labelledby="panel-heading">
+      <h2 id="panel-heading">Live verdict</h2>
+      <p id="verdict-summary" role="status" aria-live="polite" aria-atomic="true">Verdict: unsure, 0% confidence</p>
+      <h3 id="reasons-heading">Reasons</h3>
+      <ul id="verdict-reasons" aria-labelledby="reasons-heading"></ul>
+      <p id="verdict-no-reasons" class="hint">No reasons yet. The verdict stays unsure until you interact with the page.</p>
+      <div class="mode-switch">
+        <h3 id="mode-heading">Mode</h3>
+        <nav aria-labelledby="mode-heading">
+          <ul>
+            <li><a id="mode-detect" href="?mode=detect">Detect</a></li>
+            <li><a id="mode-block" href="?mode=block">Block</a></li>
+          </ul>
+        </nav>
+        <p id="mode-description" class="hint"></p>
+        <p class="hint">Switching mode reloads the page and starts a new session.</p>
+      </div>
+    </aside>
+  </div>
+</main>
+<footer>
+  <p>MIT licensed. The guard runs entirely in your browser on this page.</p>
+</footer>
+<script type="module" src="dist/demo.js"></script>
+</body>
+</html>

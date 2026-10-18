@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Signals test page</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 760px; margin: 32px auto; padding: 0 16px; color: #1b1b1f; }
+  label { display: block; margin-top: 12px; font-weight: 600; }
+  input, textarea, select { width: 100%; padding: 8px; font: inherit; margin-top: 4px; box-sizing: border-box; }
+  button { margin-top: 16px; padding: 10px 18px; font: inherit; cursor: pointer; }
+  #panel { position: fixed; right: 12px; bottom: 12px; width: 280px; background: #f4f2ff; border: 1px solid #c9c2ff; padding: 10px; font-size: 12px; white-space: pre-wrap; }
+  .item { padding: 14px; border-bottom: 1px solid #eee; }
+  #done { display: none; color: #0a7a3a; font-weight: 600; margin-top: 12px; }
+</style>
+</head>
+<body>
+<h1>Book a table</h1>
+<p>Fill in the form, pick a time, then press Book. After that, scroll down and open item 25 in the list.</p>
+<form id="form">
+  <label for="name">Full name</label>
+  <input id="name" name="name" autocomplete="off">
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" autocomplete="off">
+  <label for="time">Time</label>
+  <select id="time" name="time"><option value="">Choose</option><option>18:00</option><option>19:00</option><option>20:00</option></select>
+  <label for="notes">Notes</label>
+  <textarea id="notes" name="notes" rows="3"></textarea>
+  <label><input type="checkbox" id="terms" style="width:auto"> I agree to the booking rules</label>
+  <button type="submit" id="book">Book</button>
+  <div id="done">Booked.</div>
+</form>
+<h2>Items</h2>
+<div id="list"></div>
+<pre id="panel">recording...</pre>
+<script>
+(() => {
+  const who = new URLSearchParams(location.search).get("who") || "unknown";
+  const session = Math.random().toString(36).slice(2, 10);
+  const start = performance.now();
+  const t = () => Math.round(performance.now() - start);
+  const events = [];
+  const mutations = [];
+  const frameGaps = [];
+  let moves = [];
+  let cdpHits = 0;
+  const panel = document.getElementById("panel");
+  const list = document.getElementById("list");
+
+  for (let i = 1; i <= 40; i++) {
+    const a = document.createElement("a");
+    a.href = "#item-" + i;
+    a.id = "item-" + i;
+    a.className = "item";
+    a.style.display = "block";
+    a.textContent = "Item " + i;
+    list.appendChild(a);
+  }
+
+  const environment = {
+    webdriver: navigator.webdriver,
+    userAgent: navigator.userAgent,
+    brands: navigator.userAgentData ? navigator.userAgentData.brands.map((b) => b.brand + " " + b.version) : null,
+    languages: navigator.languages,
+    plugins: navigator.plugins.length,
+    cores: navigator.hardwareConcurrency,
+    screen: [screen.width, screen.height, screen.availWidth, screen.availHeight],
+    window: [innerWidth, innerHeight, outerWidth, outerHeight],
+    dpr: devicePixelRatio,
+    hasFocus: document.hasFocus(),
+    visibility: document.visibilityState,
+    chromeKeys: window.chrome ? Object.keys(window.chrome) : null,
+    globalsAdded: Object.keys(window).filter((k) => /claude|anthropic|agent|__/i.test(k)),
+  };
+
+  const probeCdp = () => {
+    const e = new Error();
+    Object.defineProperty(e, "stack", { get() { cdpHits++; return ""; } });
+    console.debug(e);
+  };
+  setInterval(probeCdp, 1000);
+
+  const describe = (el) => {
+    if (!el || !el.tagName) return el && el.nodeName;
+    return el.tagName.toLowerCase() + (el.id ? "#" + el.id : "") + (typeof el.className === "string" && el.className ? "." + el.className.split(" ").join(".") : "");
+  };
+  const inPanel = (node) => node === panel || panel.contains(node);
+
+  new MutationObserver((records) => {
+    for (const r of records) {
+      if (inPanel(r.target)) continue;
+      if (r.type === "childList") {
+        for (const n of r.addedNodes) {
+          if (r.target === list) continue;
+          mutations.push({ t: t(), kind: "added", parent: describe(r.target), node: describe(n), attrs: n.attributes ? [...n.attributes].map((a) => a.name + "=" + String(a.value).slice(0, 80)) : null, html: n.outerHTML ? n.outerHTML.slice(0, 300) : String(n.textContent).slice(0, 80) });
+        }
+        for (const n of r.removedNodes) mutations.push({ t: t(), kind: "removed", parent: describe(r.target), node: describe(n) });
+      } else if (r.type === "attributes") {
+        mutations.push({ t: t(), kind: "attr", node: describe(r.target), name: r.attributeName, value: String(r.target.getAttribute(r.attributeName)).slice(0, 120) });
+      }
+    }
+  }).observe(document.documentElement, { subtree: true, childList: true, attributes: true });
+
+  const recentMoves = (ms) => moves.filter((m) => m.t > t() - ms);
+  const lastMoveAt = () => (moves.length ? moves[moves.length - 1].t : null);
+
+  addEventListener("pointermove", (e) => {
+    moves.push({ t: t(), x: e.clientX, y: e.clientY, trusted: e.isTrusted });
+    if (moves.length > 5000) moves = moves.slice(-2500);
+  }, true);
+
+  const onPointer = (e) => {
+    const r = e.target.getBoundingClientRect ? e.target.getBoundingClientRect() : null;
+    const before = recentMoves(1000);
+    events.push({
+      t: t(), type: e.type, target: describe(e.target), trusted: e.isTrusted, pointerType: e.pointerType || null, x: e.clientX, y: e.clientY,
+      offsetFromCentre: r && r.width ? [Number(((e.clientX - (r.left + r.width / 2)) / r.width).toFixed(3)), Number(((e.clientY - (r.top + r.height / 2)) / r.height).toFixed(3))] : null,
+      movesInLastSecond: before.length, msSinceLastMove: lastMoveAt() === null ? null : t() - lastMoveAt(), detail: e.detail, buttons: e.buttons, pressure: e.pressure ?? null,
+    });
+  };
+  for (const type of ["pointerdown", "pointerup", "click", "mousedown", "mouseup", "contextmenu"]) addEventListener(type, onPointer, true);
+
+  for (const type of ["keydown", "keyup"]) addEventListener(type, (e) => events.push({ t: t(), type, target: describe(e.target), trusted: e.isTrusted, key: e.key.length === 1 ? "char" : e.key, repeat: e.repeat }), true);
+  addEventListener("input", (e) => events.push({ t: t(), type: "input", target: describe(e.target), trusted: e.isTrusted, inputType: e.inputType || null, dataLength: e.data ? e.data.length : null, valueLength: e.target.value ? e.target.value.length : null }), true);
+  addEventListener("change", (e) => events.push({ t: t(), type: "change", target: describe(e.target), trusted: e.isTrusted }), true);
+  addEventListener("paste", (e) => events.push({ t: t(), type: "paste", target: describe(e.target), trusted: e.isTrusted }), true);
+  for (const type of ["focus", "blur"]) addEventListener(type, (e) => events.push({ t: t(), type: "el-" + type, target: describe(e.target), trusted: e.isTrusted }), true);
+  window.addEventListener("focus", (e) => { if (e.target === window) events.push({ t: t(), type: "window-focus", trusted: e.isTrusted }); });
+  window.addEventListener("blur", (e) => { if (e.target === window) events.push({ t: t(), type: "window-blur", trusted: e.isTrusted }); });
+  document.addEventListener("visibilitychange", () => events.push({ t: t(), type: "visibility", state: document.visibilityState }));
+  addEventListener("resize", () => events.push({ t: t(), type: "resize", window: [innerWidth, innerHeight, outerWidth, outerHeight], dpr: devicePixelRatio }));
+  let lastScroll = 0;
+  addEventListener("scroll", (e) => { if (t() - lastScroll > 100) { lastScroll = t(); events.push({ t: t(), type: "scroll", trusted: e.isTrusted, y: Math.round(scrollY) }); } }, true);
+  addEventListener("wheel", (e) => events.push({ t: t(), type: "wheel", trusted: e.isTrusted, dy: Math.round(e.deltaY), mode: e.deltaMode }), { capture: true, passive: true });
+
+  let lastFrame = performance.now();
+  const frame = (now) => { const gap = now - lastFrame; if (gap > 100) frameGaps.push({ t: t(), gapMs: Math.round(gap) }); lastFrame = now; requestAnimationFrame(frame); };
+  requestAnimationFrame(frame);
+
+  document.getElementById("form").addEventListener("submit", (e) => { e.preventDefault(); document.getElementById("done").style.display = "block"; events.push({ t: t(), type: "submitted" }); });
+
+  const keyGaps = () => {
+    const downs = events.filter((e) => e.type === "keydown" && e.key === "char").map((e) => e.t);
+    const gaps = downs.slice(1).map((v, i) => v - downs[i]);
+    if (!gaps.length) return null;
+    const mean = gaps.reduce((a, b) => a + b, 0) / gaps.length;
+    const sd = Math.sqrt(gaps.reduce((a, b) => a + (b - mean) ** 2, 0) / gaps.length);
+    return { count: gaps.length, meanMs: Math.round(mean), sdMs: Math.round(sd) };
+  };
+
+  const snapshot = () => ({
+    who, session, at: new Date().toISOString(), durationMs: t(), environment, cdpProbeHits: cdpHits,
+    totals: { moves: moves.length, untrustedEvents: events.filter((e) => e.trusted === false).length, clicks: events.filter((e) => e.type === "click").length, keydowns: events.filter((e) => e.type === "keydown").length, mutations: mutations.length },
+    keyTiming: keyGaps(), events, mutations, frameGaps, moveSample: moves.slice(-400),
+  });
+
+  const render = () => {
+    const s = snapshot();
+    panel.textContent = `who: ${who}\nwebdriver: ${environment.webdriver}\ncdp probe hits: ${cdpHits}\nmouse moves: ${s.totals.moves}\nclicks: ${s.totals.clicks}\nuntrusted events: ${s.totals.untrustedEvents}\nforeign DOM changes: ${s.totals.mutations}\nkey timing: ${JSON.stringify(s.keyTiming)}`;
+  };
+  setInterval(render, 1000);
+
+  const send = () => navigator.sendBeacon("/log", JSON.stringify(snapshot()));
+  setInterval(send, 3000);
+  addEventListener("pagehide", send);
+})();
+</script>
+</body>
+</html>

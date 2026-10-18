@@ -1,0 +1,53 @@
+name: Contribute a session
+description: Offer a recorded session from the demo contribute page as public test data.
+title: "Session: "
+labels: ["session"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record a session on the demo contribute page, download the file, then attach it below.
+        The file holds timing, movement and lengths only. It never holds typed text.
+  - type: dropdown
+    id: label
+    attributes:
+      label: Who did the task?
+      options:
+        - A person
+        - A browser agent
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent name
+      description: Only for agent sessions. The product name, and the version if you know it.
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop or laptop
+        - Phone
+        - Tablet
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Input method (mouse, trackpad, keyboard only, screen reader), browser, and anything unusual. Do not include personal details.
+  - type: textarea
+    id: session-file
+    attributes:
+      label: Session file
+      description: Attach the downloaded .json file by dragging it into this box. It should match the file shown on the contribute page.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I agree this session data, which contains timing and movement but no typed text, is published under the MIT licence as test data
+          required: true
